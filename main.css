@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    color: azure;
+}
+
+img {
+    max-width: 100%;
+}
+.container {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    color: azure;
+    background-color: rgb(197, 0, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.ultimo-ep {
+    margin-top: 48px;
+    width: 100%;
+    color: azure;
+    background-color: rgb(197, 0, 197);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.assistir {
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+        
+}
+
+button {
+    font-size: 28px;
+    margin-top: 24px;
+    background-color: rgb(197, 0, 197);
+    color: azure;
+    margin-bottom: 28px;
+}
+
+.row h4 {
+    background-color: rgb(197, 0, 197);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 28px;
+}
+
+.assistir button:hover {
+    color:  rgb(197, 0, 197);
+    background-color: azure;
+}
+
+.assistir a {
+    text-decoration: none;
+    color: azure;
+}
+
+.assistir a:hover {
+    color:  rgb(197, 0, 197);
+}
+
+@media screen and (max-width: 768px)
